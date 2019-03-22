@@ -71,11 +71,29 @@ p {
     margin: 0 auto;
 }
 
+/* *********************************** */
+/******** Navigation and header *********/
+/* *********************************** */
+
+header .top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 100px 0 40px 0;
+}
+
+header nav a{
+    margin: 35px;
+}
+/* *********************************** */
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
+    margin-top: 30px;
     border-bottom: 1px dashed black;
 }
 
