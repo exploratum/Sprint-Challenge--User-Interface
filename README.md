@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML helps give meaning to your page content and structure. By using semantic tags you help communicate the nature of the page content. It will then help search engines to deliver the right content to the right search queries. In addition, the browser, by recognizing semantics tags, will be able to render your content in an appropriate way. For example anchor tags will have a specific formatting and H1 to H2 will be automatically attributed corresponding formaat weigting according to their order of importance.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+In '''display: block''', unless you change the item size, each item will take the whole width of the page, which means the next item has to go below on the next available line. This is different for '''display: inline''' where each item will only takes the space it needs and the next item will be placed next to it on the page. Also you can change width, height, top and bottom margin & padding  with '''display:block'''. This is not the case for '''display: inline'''.
 
 3. What are the 4 areas of the box model?
 
+content, border, padding, margin.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+cross-axis
+
 5. Explain why git is valuable to a team of developers.
+
+Git allows a team to work on the same project at the same time with the capability of merging together each individual contribution.  It will point out conflicts that need to be resolved before a successful merger. It also gives the possiblility to revert to a previous version of the the software if you did screw up.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
